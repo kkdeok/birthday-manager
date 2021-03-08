@@ -32,5 +32,5 @@ rebel.xml
 
 # ETC
 src/main/resource/credentials.json
-src/main/resource/target_user.yaml
-tokens
+src/main/resource/application.yaml
+/tokens/

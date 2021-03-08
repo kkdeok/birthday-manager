@@ -1,0 +1,15 @@
+# 대상의 생년 월일 정보를 입력하세요. 
+- name: 시아버지
+  birthday_year: 1950
+  birthday_mon: 01
+  birthday_day: 23
+  is_lunar: Y
+- name: 시어머니
+  birthday_year: 1960
+  birthday_mon: 04
+  birthday_day: 20
+  is_lunar: N
+lunar_calendar_api:
+  url: http://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getSpcifyLunCalInfo
+  token: {ADD_YOUR_SERVICE_KEY}
+calendar_id: {ADD_YOUR_GOOGLE_CALENDAR_ID}

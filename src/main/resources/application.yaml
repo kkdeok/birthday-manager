@@ -1,0 +1,51 @@
+# 대상의 생년 월일 정보를 입력하세요. 
+target_users:
+  - name: 시아버님 생신
+    birthday_year: 1959
+    birthday_mon: 2
+    birthday_day: 21
+    is_lunar: Y
+  - name: 시어머님 생신
+    birthday_year: 1962
+    birthday_mon: 7
+    birthday_day: 11
+    is_lunar: Y
+  - name: 능해언니 생일
+    birthday_year: 1988
+    birthday_mon: 4
+    birthday_day: 13
+    is_lunar: N
+  - name: 남편 생일
+    birthday_year: 1990
+    birthday_mon: 2
+    birthday_day: 6
+    is_lunar: N
+  - name: 장인어른 생신
+    birthday_year: 1961
+    birthday_mon: 9
+    birthday_day: 24
+    is_lunar: Y
+  - name: 장모님 생신
+    birthday_year: 1965
+    birthday_mon: 3
+    birthday_day: 9
+    is_lunar: Y
+  - name: 처제 생일
+    birthday_year: 1994
+    birthday_mon: 12
+    birthday_day: 4
+    is_lunar: Y
+  - name: 아내 생일
+    birthday_year: 1991
+    birthday_mon: 3
+    birthday_day: 24
+    is_lunar: Y
+
+lunar_calendar_api:
+  url: http://apis.data.go.kr/B090041/openapi/service/LrsrCldInfoService/getSpcifyLunCalInfo 
+  token: zJzxpxYuAu6Y3QpnFKng6QYjd8kgxS0sDQ4uiT1%2BgBdBeDdk1p4Hi4Xj24IdFsa86kPy8H%2BoaOtOFroNvv6%2BbA%3D%3D
+    
+calendar_id: family02608350481128128560@group.calendar.google.com
+  
+    
+        

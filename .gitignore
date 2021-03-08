@@ -31,6 +31,6 @@ rebel.xml
 /build/
 
 # ETC
-src/main/resource/credentials.json
-src/main/resource/application.yaml
+/src/main/resource/credentials.json
+/src/main/resource/application.yaml
 /tokens/
